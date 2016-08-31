@@ -5,7 +5,7 @@
 !!python/unicode 'blog/happy-post.html': [blog.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/index.html': [listing.j2, macros.j2, base.j2, analytics.j2]
 !!python/unicode 'blog/sad-post.html': [blog.j2, macros.j2, base.j2, analytics.j2]
-!!python/unicode 'blog/tags/angry.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
+!!python/unicode 'blog/tags/angry.html': []
 !!python/unicode 'blog/tags/happy.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/sad.html': [macros.j2, base.j2, tagged_posts.j2, analytics.j2]
 !!python/unicode 'blog/tags/thoughts.html': [macros.j2, base.j2, tagged_posts.j2,
