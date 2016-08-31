@@ -7,7 +7,7 @@
         <link href="/"/>
     
         
-    <updated>2016-08-31T13:27:02Z</updated>
+    <updated>2016-08-31T13:28:20Z</updated>
 
     <id>/blog/excerpts.xml/</id>
 
@@ -38,20 +38,10 @@ not so very tall but making up for it by measuring about six feet from the
             <updated>2011-01-01T10:00:00Z</updated>
             <published>2011-01-01T10:00:00Z</published>
             <id>/blog/angry-post.html</id>
-                        <category   scheme="/blog/tags"
-                        term="angry"
-                        label="Angry" />
-                        <category   scheme="/blog/tags"
-                        term="thoughts"
-                        label="Thoughts" />
             
             <content type="html">
-                &lt;p&gt;&lt;img alt=&#34;Airport&#34; src=&#34;/media/images/airport.png&#34; /&gt;&lt;/p&gt;
-                &lt;p&gt;To complete the character-study of Mr. Worple, he was a man of extremely
-uncertain temper, and his general tendency was to think that Corky was a poor
-chump and that whatever step he took in any direction on his own account, was
-just another proof of his innate idiocy. I should imagine Jeeves feels very
-much the same about&amp;nbsp;me.&lt;/p&gt;            </content>
+                
+                            </content>
         </entry>
             <entry>
             <title type="html">A Sad Post</title>
