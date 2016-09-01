@@ -87,11 +87,15 @@
 <br><br>If you find that description intimidating I don't blame you. However, for most of the problems where natural language processing is used, all you need to know is how to count. Take this example sentence: 
 <br></h4><h3> <i><center>The quick brown fox jumped over the lazy dog</i></center></h3><h4>One of you out there just counted the number of the words in this sentence and got nine. I appreciate your enthusiasm. 
 <br><br>However it is <i>slightly</i> more complicated than that. Before we begin our counting experiment I will briefly explain a few NLP (natural language processing) terms.
-<br><br><u>Corpus:</u>&nbsp The text you are working with. In this case it is our sentence 'The quick brown fox jumped over the lazy dog'
+<br><br><u>Corpus:</u>&nbsp The text you are working with. In this case it is our sentence 'The quick brown fox jumped over the lazy dog'. In most cases a corpus contains many sentences or even paragraphs of text.
 <br><br> <u>Stop Words:</u>&nbsp Words that occur very frequently in a language but usually do not contain much information. In English this includes words like 'the','and' and 'over' in most situations.
-<br><br>So the first thing we want to do is to take our corpus and remove all the stop words. What we are then left with is:</h4><center><h3>quick brown fox jumped lazy dog</h3></center><h4>Some of you just counted the number of words in this corpus and got six. You need to learn to be a little more patient. Before we can start our counting experiment we need to learn the following additional NLP terms:
+<br><br>So the first thing we want to do is to take our corpus and remove all the stop words. What we are then left with is:</h4><center><h3><i>quick brown fox jumped lazy dog</i></h3></center><h4>Some of you just counted the number of words in this corpus and got six. You need to learn to be a little more patient. Before we can start our counting experiment we need to learn the following additional NLP terms:
 <br><br><u>Stemming:</u>&nbsp Removing parts of a word to get it's base. Like lazy→laz (which then will match lazily, laziness etc)
-<br><br><u>Lemmatization:</u>&nbsp Similar to stemming it can be used to find roots (like jumped→jump), but has language context, so can also do things like better→good </p></h4>
+<br><br><u>Lemmatization:</u>&nbsp Similar to stemming it can be used to find roots (like jumped→jump), but has language context, so can also do things like better→good <br>Why use stemming and lemmatization? When interpreting the meaning of a sentence, generally the tense (past, present future), pluralization etc. is not as important as the meaning. In other words, I care more that the dog has the property "laziness" and the fox has the properties "quick" and "brown" than I do about the fact that the corpus is in the past tense. After applying stemming and lemmatization our corpus now looks like this:</h4>
+<center><br><br><h3>quick brown fox jump laz dog</h3></center>
+<h4><br><br>Great! Now we can start counting!
+<br><br>But the answer is still not six.
+</p></h4>
 
           </section>
       </div>
