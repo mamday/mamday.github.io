@@ -22,7 +22,7 @@
         compatibility mode is within the first 1K bytes
         code.google.com/p/chromium/issues/detail?id=23003 -->
 
-  <title>A basic blog</title>
+  <title>Blogging</title>
   <meta name="description" content="">
   <meta name="author" content="Lakshmi Vyasarajan">
 
@@ -33,9 +33,9 @@
         in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="/media/images/favicon.ico">
   <link rel="apple-touch-icon" href="/media/images/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="/media/css/bootstrap.min.css">
   
-    <link rel="stylesheet" href="/media/css/site.css">
-  <link rel="stylesheet" href="/media/css/syntax.css">
   
     <!-- All JavaScript at the bottom, except for Modernizr which
         enables HTML5 elements & feature detects -->
@@ -45,9 +45,13 @@
     <div id="container">
             <div id="main" role="main">
           <header class="banner clearfix">
-          <h1>BASIC</h1>
-            <h3>A hyde website</h3>                              <nav class=main_nav>
-    <ul>
+          <div class="bg-success">
+          <h1>&emsp; Dr. Robot Alien</h1>
+            <h3>&emsp; &emsp; A compendium of eldritch and uncanny experimentations</h3> 
+    </div>
+          <div class="bg-info">
+       <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
                 <li>
             <a title="Home Page"
                 class="button white home"
@@ -57,13 +61,13 @@
         </li>        <li>
             <a title="Portfolio"
                 class="button white portfolio"
-                href="/portfolio">
+                href="/portfolio/index.html">
                 Portfolio
             </a>
-        </li>        <li>
+        </li>        <li class="active">
             <a title="Blog"
                 class="button white active blog"
-                href="/blog">
+                href="/blog/index.html">
                 Blog
             </a>
         </li>        <li>
@@ -73,44 +77,45 @@
                 About
             </a>
         </li>    </ul>
-</nav>
                     </header>
           <section class="content">
-          <h1 class="title">A basic blog</h1>
+          <h1 class="title">Blogging</h1>
 <ul class="listing clearfix">
 <li>
     <article >
-<h3><a href="/blog/happy-post.html">A Happy Post</a></h3>
-<a href="/blog/happy-post.html"></a>
+<h3><a href="/blog/introduction.html">Introduction</a></h3>
+<a href="/blog/introduction.html"><p><img alt="RobotAlien" height="420" src="/media/images/alienrobot.jpg" /></p></a>
+<p>An introduction to my world of experimental data science.</p>
+<time datetime="2016-08-31">
+    Posted: Wed, 31 Aug 2016
+</time>
+</article>
 
-<time datetime="2011-02-01">
-    Posted: Tue, 01 Feb 2011
+</li>
+
+<li>
+    <article >
+<h3><a href="/blog/nlp-introduction.html">Natural Language Processing Demystified Part 1 - Processing Raw Text</a></h3>
+<a href="/blog/nlp-introduction.html"><p><img alt="First" height="200" src="/media/images/nlpcat.png" /></p></a>
+<p>A simple Google search defines <i>natural language processing</i> as the following:<br><center><i>Natural language processing (NLP) is a field of computer science, artificial intelligence, and computational linguistics concerned with the interactions between computers and human (natural) languages. As such, NLP is related to the area of human-computer interaction.</i></center><br>Wat?</p>
+<time datetime="2016-08-31">
+    Posted: Wed, 31 Aug 2016
 </time>
 </article>
 
 </li>
 <li>
     <article >
-<h3><a href="/blog/angry-post.html">An Angry Post</a></h3>
-<a href="/blog/angry-post.html"></a>
-
-<time datetime="2011-01-01">
-    Posted: Sat, 01 Jan 2011
+<h3><a href="/blog/nlp-introduction2.html">Natural Language Processing Demystified Part 2 - Bag of Words</a></h3>
+<a href="/blog/nlp-introduction2.html"><p><img alt="Second" height="200" src="/media/images/bagofwords.jpg" /></p></a>
+<p>What is a bag of words? Why should I want to put words in a bag? What do I do with them after I put them there? All this and more will be revealed.</p>
+<time datetime="2016-10-18">
+    Posted: Tue, 18 Oct 2016
 </time>
 </article>
 
 </li>
-<li>
-    <article >
-<h3><a href="/blog/sad-post.html">A Sad Post</a></h3>
-<a href="/blog/sad-post.html"></a>
 
-<time datetime="2010-12-01">
-    Posted: Wed, 01 Dec 2010
-</time>
-</article>
-
-</li>
 </ul>
           </section>
       </div>
