@@ -82,50 +82,50 @@
           <h1 class="title">Natural Language Processing Demystified Part 2 - Bag of Words</h1>
 <p><center><img alt="NLPBag" height="200" src="/media/images/bagofwords.jpg" /></center></p>
 <p>
-<h4>What is a bag of words? Why should I want to put words in a bag? What do I do with them after I put them there? All this and more will be revealed.
+What is a bag of words? Why should I want to put words in a bag? What do I do with them after I put them there? All this and more will be revealed.
 <p><br>
 In the <a href="/blog/nlp-introduction.html">previous post</a> we processed our text and ended up with a list of words like this:
 <br>
 </p>
-</h4>
+
 <h3><p><center>
 quick brown fox jump laz dog
 </center></p></h3>
 <br>
-<h4>
+
 Now, how do we turn our words into a 'bag of words'? Putting the words into a bag, in this case, basically means using our words to encode information about other texts. We start by taking all of the words we selected with our text processing and give it a number. So in this case we have 1)quick, 2)brown, 3)fox, 4)jump 5)laz and 6)dog. We can then count the number of occurrences of these words in the order that we assigned them in the first step. So, for our original sentence <em>'The quick brown fox jumped over the lazy dog.'</em> we would get the following counts:
 <br>
-</h4>
+
 <h3>
 [1,1,1,1,1,1]
 </h3>
 <br>
-<h4>
+
 In this particular example all of the spaces have a number one, because all of the words occur once (which makes sense, because we created our model from this corpus). However we can also use our bag of words model to encode other sentences. For example if I have the sentence <em>'A lazy dog chased a brown ball'</em> then I would have the following encoding:
-</h4>
+
 <br>
 <h3>
 [0,1,0,0,1,1]
 </h3>
 <br>
-<h4>
+
 This means that our 2nd word, <em>brown</em>, our 5th word, <em>laz</em> (which comes from lazy, after text processing), and our 6th word, <em>dog</em>, all occur once in this sentence. let's try one more. This time we'll encode the sentence <em>'All lazy people jump through a lot of hoops to do lazy things.'</em> The encoding for this sentence would then be:  
-</h4>
+
 <br>
 <h3>
 [0,0,0,1,2,0]
 </h3>
 <br>
-<h4>
+
 Here we have encoded that the fourth word, <em>jump</em>, occurs once and the fifth word, <em>laz</em>, appears twice.
-</h4>
+
 <br>
-<h4>
+
 Now that we know how to encode text with a bag of words, the important question is 'what can we do with it'? Well, it turns out that knowing what kinds of words are in a sentence can tell you things about the text. For example, in a corpus of reviews for movies, text with a lot of words like <em>'great'</em> and <em>'fun'</em> is more likely to mean the review is positive than a text with a lot of words like <em>'bad'</em> and <em>'M. Night Shyamalan'</em>. 
-</h4>
+
 <br>
-<h4> If you like this post, but would like to dive into some code and learn more about what can be done with a bag of words, this <a href="https://github.com/mamday/scripts/blob/master/IMDBSentiment.ipynb">IMDB Sentiment Analysis</a> code gives an example of how to combine natural language processing and machine learning to rate IMDB reviews.
-</h4>
+ If you like this post, but would like to dive into some code and learn more about what can be done with a bag of words, this <a href="https://github.com/mamday/scripts/blob/master/IMDBSentiment.ipynb">IMDB Sentiment Analysis</a> code gives an example of how to combine natural language processing and machine learning to rate IMDB reviews.
+
 </p>
 
           </section>
